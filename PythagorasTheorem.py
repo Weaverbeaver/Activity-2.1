@@ -8,7 +8,7 @@ choice = input("Enter your choice: ")
 if choice == "1":
   b = float(input("Enter length of side B: "))
   c = float(input("Enter length of side C: "))
-  a = (b**2 + c**2)**0.5
+  a = (c**2 - b**2)**0.5
   print("Length of side A is:", a)
 elif choice == "2":
   a = float(input("Enter length of side A: "))
